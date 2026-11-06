@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+  <style>
+    .tile { fill: #1b1b1f; }
+    .glyph { stroke: #fafafa; }
+    @media (prefers-color-scheme: dark) {
+      .tile { fill: #f4f4f6; }
+      .glyph { stroke: #1b1b1f; }
+    }
+  </style>
+  <rect class="tile" width="32" height="32" rx="8" />
+  <path class="glyph" d="M9 16.5 22.5 9.5 18.5 23l-3-5.5L9 16.5Z" stroke-width="2.25" stroke-linejoin="round" />
+  <path class="glyph" d="m15.5 17.5 7-8" stroke-width="2.25" stroke-linecap="round" />
+</svg>

@@ -1,0 +1,15 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["react", "oxc"],
+  "ignorePatterns": ["src/components/ui/**", "src/hooks/use-mobile.js", "dist/**"],
+  "rules": {
+    "react/rules-of-hooks": "error",
+    "react/only-export-components": ["warn", { "allowConstantExport": true }]
+  },
+  "overrides": [
+    {
+      "files": ["src/context/*Context.jsx", "src/app/ShellContext.jsx", "src/app/routes.jsx"],
+      "rules": { "react/only-export-components": "off" }
+    }
+  ]
+}
